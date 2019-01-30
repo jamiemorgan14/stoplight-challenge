@@ -28,27 +28,24 @@
 
 #red {
   background-color: red;
-  height: 100px;
+  margin-top: 0px;
 }
 
 #yellow {
   background-color: yellow;
-  height: 100px;
-  position: relative;
-  margin-top: 25px;
 }
 
 #green {
   background-color: green;
-  height: 100px;
-  position: relative;
-  margin-top:20px;
 }
 
 .light {
   border-radius: 80%;
+  margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  height: 100px;
+  position: relative;
 }
 
 #green:hover {
