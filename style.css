@@ -1,0 +1,58 @@
+* {
+  background-color: black;
+}
+
+#container {
+  height: 800px;
+  width: 500px;
+  background-color: darkgrey;
+  margin: auto;
+  margin-top: 200px;
+  padding-top: 20px;
+}
+
+#structure {
+  background-color: black;
+  height: 100px;
+  width: 40px;
+  margin: auto;
+}
+
+#stoplight {
+  background-color: black;
+  height: 365px;
+  width: 150px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+#red {
+  background-color: red;
+  height: 100px;
+}
+
+#yellow {
+  background-color: yellow;
+  height: 100px;
+  position: relative;
+  margin-top: 25px;
+}
+
+#green {
+  background-color: green;
+  height: 100px;
+  position: relative;
+  margin-top:20px;
+}
+
+.light {
+  border-radius: 80%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#green:hover {
+  background-color: white;
+  box-shadow: 0 0 15px 15px limegreen;
+
+}
